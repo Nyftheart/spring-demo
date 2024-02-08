@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Check out the source code from your version control system
-                git 'https://github.com/votre-utilisateur/votre-projet.git'
+                git 'https://github.com/Nyftheart/spring-demo.git'
             }
         }
 
