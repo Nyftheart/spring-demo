@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Check out the source code from your version control system
-                echo 'coucou ${env.NAME}'
+                echo "coucou ${env.NAME}"
             }
         }
     }
